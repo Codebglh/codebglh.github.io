@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://bglh.xyz</id>
+    <title>bgcode • Posts by &#34;baz&#34; tag</title>
+    <link href="http://bglh.xyz" />
+    <updated>2013-12-24T15:29:53.000Z</updated>
+    <category term="Foo" />
+    <category term="Bar" />
+    <category term="Baz" />
+    <category term="Hexo" />
+    <category term="教程" />
+    <entry>
+        <id>http://bglh.xyz/tags/</id>
+        <title>Tags</title>
+        <link rel="alternate" href="http://bglh.xyz/tags/"/>
+        <content type="html">&lt;p&gt;This post contains 3 tags. Make sure your theme can display all of the tags.&lt;/p&gt;
+</content>
+        <category term="Foo" />
+        <category term="Bar" />
+        <category term="Baz" />
+        <updated>2013-12-24T15:29:53.000Z</updated>
+    </entry>
+</feed>
