@@ -105,17 +105,6 @@
             ]
         },
         {
-            "id": "http://bglh.xyz/hexo/%E4%B8%BB%E9%A2%98%E5%BC%80%E5%8F%91/",
-            "url": "http://bglh.xyz/hexo/%E4%B8%BB%E9%A2%98%E5%BC%80%E5%8F%91/",
-            "title": "第1周 计算",
-            "date_published": "2020-04-12T12:46:25.000Z",
-            "content_html": "<h1 id=\"hexo主题开发\"><a class=\"markdownIt-Anchor\" href=\"#hexo主题开发\">#</a> hexo 主题开发</h1>\n<h3 id=\"1hexo-结构\"><a class=\"markdownIt-Anchor\" href=\"#1hexo-结构\">#</a> 1.hexo 结构</h3>\n<figure class=\"highlight yaml\"><figcaption data-lang=\"YAML\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre>├── _config.yml       // 总体的配置文件</pre></td></tr><tr><td data-num=\"2\"></td><td><pre>├── node_modules      // NodeJs 所依赖的包，后期也可以自己添加插件</pre></td></tr><tr><td data-num=\"3\"></td><td><pre>├── package<span class=\"token punctuation\">-</span>lock.json // 支持 hexo 运行的 NodeJs 包</pre></td></tr><tr><td data-num=\"4\"></td><td><pre>├── package.json      // 自定义的 NodeJs 包</pre></td></tr><tr><td data-num=\"5\"></td><td><pre>├── scaffolds         // Hexo Markdown 加载时的关键字，如data<span class=\"token punctuation\">,</span>title等<span class=\"token punctuation\">,</span>它会在启动的时候默认加载</pre></td></tr><tr><td data-num=\"6\"></td><td><pre>├── source            // md 源文件目录</pre></td></tr><tr><td data-num=\"7\"></td><td><pre>└── themes            // 主题文件夹</pre></td></tr><tr><td data-num=\"8\"></td><td><pre>    └── landscape     // 默认主题</pre></td></tr></table></figure><h3 id=\"2主题结构\"><a class=\"markdownIt-Anchor\" href=\"#2主题结构\">#</a> 2. 主题结构</h3>\n<pre><code>    └── bg\t                // 自建的主题目录\n        ├── _config.yml     // 主题配置文件\n        ├── layout          // 主要构造 html 的模板\n        │   ├── index.ejs   // 主页模板\n        │   ├── layout.ejs  // 布局模板\n        │   └── post.ejs    // md 编译成 html 后的文件模板\n        └── source          // 静态资源文件目录\n            ├── css         // css 样式目录\n            └── js          // JavaScript 脚本目录\n</code></pre>\n<h3 id=\"3\"><a class=\"markdownIt-Anchor\" href=\"#3\">#</a> 3.</h3>\n<h3 id=\"4\"><a class=\"markdownIt-Anchor\" href=\"#4\">#</a> 4.</h3>\n<h3 id=\"5\"><a class=\"markdownIt-Anchor\" href=\"#5\">#</a> 5.</h3>\n<h3 id=\"6\"><a class=\"markdownIt-Anchor\" href=\"#6\">#</a> 6.</h3>\n<h3 id=\"7\"><a class=\"markdownIt-Anchor\" href=\"#7\">#</a> 7.</h3>\n<h3 id=\"8\"><a class=\"markdownIt-Anchor\" href=\"#8\">#</a> 8.</h3>\n<h3 id=\"9\"><a class=\"markdownIt-Anchor\" href=\"#9\">#</a> 9.</h3>\n<p>显示 Mac 隐藏文件的命令</p>\n<p>defaults write com.apple.finder AppleShowAllFiles -bool true<br>\nkillall Finder</p>\n<p>隐藏 Mac 隐藏文件的命令<br>\n defaults write com.apple.finder AppleShowAllFiles -bool false<br>\nkillall Finder</p>\n",
-            "tags": [
-                "博客",
-                "主题开发"
-            ]
-        },
-        {
             "id": "http://bglh.xyz/hexo/hexo%E7%AE%80%E4%BB%8B/",
             "url": "http://bglh.xyz/hexo/hexo%E7%AE%80%E4%BB%8B/",
             "title": "第1周 计算",
@@ -124,6 +113,17 @@
             "tags": [
                 "博客",
                 "hexo简介"
+            ]
+        },
+        {
+            "id": "http://bglh.xyz/hexo/%E4%B8%BB%E9%A2%98%E5%BC%80%E5%8F%91/",
+            "url": "http://bglh.xyz/hexo/%E4%B8%BB%E9%A2%98%E5%BC%80%E5%8F%91/",
+            "title": "第1周 计算",
+            "date_published": "2020-04-12T12:46:25.000Z",
+            "content_html": "<h1 id=\"hexo主题开发\"><a class=\"markdownIt-Anchor\" href=\"#hexo主题开发\">#</a> hexo 主题开发</h1>\n<h3 id=\"1hexo-结构\"><a class=\"markdownIt-Anchor\" href=\"#1hexo-结构\">#</a> 1.hexo 结构</h3>\n<figure class=\"highlight yaml\"><figcaption data-lang=\"YAML\"></figcaption><table><tr><td data-num=\"1\"></td><td><pre>├── _config.yml       // 总体的配置文件</pre></td></tr><tr><td data-num=\"2\"></td><td><pre>├── node_modules      // NodeJs 所依赖的包，后期也可以自己添加插件</pre></td></tr><tr><td data-num=\"3\"></td><td><pre>├── package<span class=\"token punctuation\">-</span>lock.json // 支持 hexo 运行的 NodeJs 包</pre></td></tr><tr><td data-num=\"4\"></td><td><pre>├── package.json      // 自定义的 NodeJs 包</pre></td></tr><tr><td data-num=\"5\"></td><td><pre>├── scaffolds         // Hexo Markdown 加载时的关键字，如data<span class=\"token punctuation\">,</span>title等<span class=\"token punctuation\">,</span>它会在启动的时候默认加载</pre></td></tr><tr><td data-num=\"6\"></td><td><pre>├── source            // md 源文件目录</pre></td></tr><tr><td data-num=\"7\"></td><td><pre>└── themes            // 主题文件夹</pre></td></tr><tr><td data-num=\"8\"></td><td><pre>    └── landscape     // 默认主题</pre></td></tr></table></figure><h3 id=\"2主题结构\"><a class=\"markdownIt-Anchor\" href=\"#2主题结构\">#</a> 2. 主题结构</h3>\n<pre><code>    └── bg\t                // 自建的主题目录\n        ├── _config.yml     // 主题配置文件\n        ├── layout          // 主要构造 html 的模板\n        │   ├── index.ejs   // 主页模板\n        │   ├── layout.ejs  // 布局模板\n        │   └── post.ejs    // md 编译成 html 后的文件模板\n        └── source          // 静态资源文件目录\n            ├── css         // css 样式目录\n            └── js          // JavaScript 脚本目录\n</code></pre>\n<h3 id=\"3\"><a class=\"markdownIt-Anchor\" href=\"#3\">#</a> 3.</h3>\n<h3 id=\"4\"><a class=\"markdownIt-Anchor\" href=\"#4\">#</a> 4.</h3>\n<h3 id=\"5\"><a class=\"markdownIt-Anchor\" href=\"#5\">#</a> 5.</h3>\n<h3 id=\"6\"><a class=\"markdownIt-Anchor\" href=\"#6\">#</a> 6.</h3>\n<h3 id=\"7\"><a class=\"markdownIt-Anchor\" href=\"#7\">#</a> 7.</h3>\n<h3 id=\"8\"><a class=\"markdownIt-Anchor\" href=\"#8\">#</a> 8.</h3>\n<h3 id=\"9\"><a class=\"markdownIt-Anchor\" href=\"#9\">#</a> 9.</h3>\n<p>显示 Mac 隐藏文件的命令</p>\n<p>defaults write com.apple.finder AppleShowAllFiles -bool true<br>\nkillall Finder</p>\n<p>隐藏 Mac 隐藏文件的命令<br>\n defaults write com.apple.finder AppleShowAllFiles -bool false<br>\nkillall Finder</p>\n",
+            "tags": [
+                "博客",
+                "主题开发"
             ]
         },
         {
