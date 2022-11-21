@@ -12,7 +12,7 @@ function jiekou() {
             }
         }
     };
-    xmlhttp.open("GET", "https://cdn.jsdelivr.net/gh/Codebglh/json/movie/jiekou.json", false);
+    xmlhttp.open("GET", "https://cdn.jsdelivr.net/gh/Codebglh/json/movie/jiekou.json", false); //false表示同步,ture表示异步
     xmlhttp.send();
 }
 
