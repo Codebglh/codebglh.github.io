@@ -7,7 +7,7 @@ function jiekou() {
                 var s = myArr.jiekou[i].url;
                 var q = myArr.jiekou[i].name;
                 var para = create1("option", s, q)
-                var element = document.getElementById("jk");
+                var element = getid("jk");
                 element.appendChild(para);
             }
         }
