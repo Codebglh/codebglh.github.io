@@ -4,12 +4,9 @@ function jiekou() {
         if (this.readyState == 4 && this.status == 200) {
             myArr = JSON.parse(this.responseText);
             for (var i = 0; i < myArr.jiekou.length; i++) {
-                var para = document.createElement("option");
-                var s = document.createAttribute("value")
-                s.value = myArr.jiekou[i].url
-                var node = document.createTextNode(myArr.jiekou[i].name);
-                para.setAttributeNode(s);
-                para.appendChild(node);
+                var s = myArr.jiekou[i].url;
+                var q = myArr.jiekou[i].name;
+                var para = create1("option", s, q)
                 var element = document.getElementById("jk");
                 element.appendChild(para);
             }
@@ -27,6 +24,13 @@ function create(lable_1, value_1) {
     var a = document.createElement(lable_1);
     a.id = value_1;
     return a;
+}
+
+function create1(name_1, value_1, value_2) {
+    var a = document.createElement(name_1);
+    a.value = value_1;
+    a.innerHTML = value_2;
+    return a
 }
 
 function jiexi(url) {
