@@ -1,21 +1,36 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>BgCode</title>
-    <link rel="icon" href="icon/favicon.ico" type="icon" sizes="16x16">
-    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.a.css">
+    <script src="js.video.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dplayer@1.27.0/dist/DPlayer.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@1.2.7/dist/hls.min.js"></script>
+
+
+    <script type="text/javascript">
+        window.onload = function() {
+            jiekou();
+        }
+    </script>
 </head>
+
 <body>
-    <div class="daohanlan">
-        <div class="tubiao"></div>
-        <div class="lianjie"></div>
-        <div class="zhujian"></div>
+    <div id="box1">
+        <div id="box"></div>
+
+        <div id="search">
+            <input id="url_1" type="text" placeholder="请输入链接地址 " value="https://c2.monidai.com/20221103/FxQWVnxP/index.m3u">
+            <select name="" id="jk"></select>
+            <button onclick="main()">播放</button>
+        </div>
     </div>
-    <div class="youcelan">
-        <div class="icon"></div>
-        <div class="jianjie"></div>
-        <div class="yijuhua"></div>
-    </div>
-    <div class="dibulan"></div>    
+
 </body>
+
+
 </html>
