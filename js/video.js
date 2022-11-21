@@ -4,7 +4,7 @@ function jiekou() {
         if (this.readyState == 4 && this.status == 200) {
             myArr = JSON.parse(this.responseText);
             for (var i = 0; i < myArr.jiekou.length; i++) {
-                var s = myArr.jiekou[i].url;
+                var s = myArr.jiekou[i].url; //链接
                 var q = myArr.jiekou[i].name;
                 var para = create1("option", s, q)
                 var element = getid("jk");
@@ -34,15 +34,15 @@ function create1(name_1, value_1, value_2) {
 }
 
 function jiexi(url) {
-    var jxApi = document.getElementById("jk"); //获取选择按钮
-    var jxurl = document.getElementById("jk").selectedIndex; //获取选中的
+    var jxApi = getid("jk"); //获取选择按钮
+    var jxurl = getid("jk").selectedIndex; //获取选中的
     var jkv = jxApi.options[jxurl].value; //获取选择接口链接
-    document.getElementById("iframe_a").src = jkv + url
+    getid("iframe_a").src = jkv + url
 }
 
 function bofang(url) {
     const dp = new DPlayer({
-        container: document.getElementById('dplayer'),
+        container: getid('dplayer'),
         video: {
             url: url,
             type: 'customHls',
