@@ -1,1 +1,37 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"/><link rel="icon" href="./favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Web site created using create-react-app"/><link rel="apple-touch-icon" href="./logo192.png"/><link rel="manifest" href="./manifest.json"/><title>CDBLOG</title><script defer="defer" src="./static/js/main.e53c2f30.js"></script><link href="./static/css/main.674db44b.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div></body></html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>视频解析播放器</title>
+    <link rel="icon" href="icon/favicon.png">
+    <link rel="stylesheet" href="css/a.css">
+    <script src="js/video.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dplayer@1.27.0/dist/DPlayer.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@1.2.7/dist/hls.min.js"></script>
+
+
+    <script type="text/javascript">
+        window.onload = function() {
+            jiekou();
+        }
+    </script>
+</head>
+
+<body>
+    <div id="box1">
+        <div id="box"></div>
+
+        <div id="search">
+            <input id="url_1" type="text" placeholder="请输入链接地址 " value="https://c2.monidai.com/20221103/FxQWVnxP/index.m3u8">
+            <select name="" id="jk"></select>
+            <button onclick="main()">播放</button>
+        </div>
+    </div>
+
+</body>
+
+
+</html>
