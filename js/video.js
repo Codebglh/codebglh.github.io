@@ -16,15 +16,15 @@
 //     xmlhttp.send();
 // }
 
-function getid(name) {
-    return document.getElementById(name) //获取标签
-}
+// function getid(name) {
+//     return document.getElementById(name) //获取标签
+// }
 
-function create(lable_1, value_1) {
-    var data = document.createElement(lable_1); //创建标签
-    data.id = value_1; //赋值
-    return data;
-}
+// function create(lable_1, value_1) {
+//     var data = document.createElement(lable_1); //创建标签
+//     data.id = value_1; //赋值
+//     return data;
+// }
 
 function bofang(url) { //创建一个dplayer
     const dp = new DPlayer({
@@ -46,8 +46,5 @@ function bofang(url) { //创建一个dplayer
 
 function main() {
     let url = getid("url").value;
-    var box = getid("box");
-    var box_1 = create("div", "dplayer");
-    box.appendChild(box_1);
     bofang(url)
 }
