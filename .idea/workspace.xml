@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca2b1f4f-7f55-4959-b2f7-769ca8e02303" name="变更" comment="bgcodem3u8播放器">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/video.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/video.js" afterDir="false" />
-    </list>
+    <list default="true" id="ca2b1f4f-7f55-4959-b2f7-769ca8e02303" name="变更" comment="bgcodem3u8播放器" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +43,7 @@
       <option name="presentableId" value="Default" />
       <updated>1678811656504</updated>
       <workItem from="1678811658487" duration="1979000" />
-      <workItem from="1679470852223" duration="230000" />
+      <workItem from="1679470852223" duration="253000" />
     </task>
     <task id="LOCAL-00001" summary="bgcode">
       <created>1678812216832</created>
@@ -63,7 +59,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678842558838</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="bgcodem3u8播放器">
+      <created>1679471093314</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679471093314</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

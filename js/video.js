@@ -16,9 +16,9 @@
 //     xmlhttp.send();
 // }
 
-// function getid(name) {
-//     return document.getElementById(name) //获取标签
-// }
+function geteid(name) {
+    return document.getElementById(name) //获取标签
+}
 
 // function create(lable_1, value_1) {
 //     var data = document.createElement(lable_1); //创建标签
@@ -28,7 +28,7 @@
 
 function bofang(url) { //创建一个dplayer
     const dp = new DPlayer({
-        container: getid('dplayer'),
+        container: geteid('dplayer'),
         video: {
             url: url,
             type: 'customHls',
@@ -44,7 +44,8 @@ function bofang(url) { //创建一个dplayer
     });
 }
 
+
 function main() {
-    let url = getid("url").value;
+    let url = geteid('url').value;
     bofang(url)
 }
